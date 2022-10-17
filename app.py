@@ -28,7 +28,7 @@ st.write("This web app was designed to detect whether an oral lesion is benign o
 #image reading
 st.image("CAC App Final Cover Photo (800x600)- resized.png")
 
-st.header("Instructions: 🦷")
+st.header("📖 Instructions:")
 st.write("1. Read through the information about oral cancer") 
 st.write("2. Scroll down to the Image Upload section") 
 st.write("3. Click on the 'Browse files' button") 
@@ -37,7 +37,7 @@ st.write("5. Wait for the AI to run (usually takes a few seconds)")
 st.write("6. Review your results (Benign or Malignant)")
 st.write("7. Look at the next steps and resources sections")
 
-st.subheader("Benign Oral Cancer")
+st.subheader("Benign Oral Cancer 👅")
 st.write("Many types of benign tumors and tumor-like changes can start in the mouth or throat, such as these:")
 st.write("• Peripheral giant cell granuloma")
 st.write("• Fibroma") 
@@ -50,7 +50,7 @@ st.write("These non-cancer tumors start from different kinds of cells and have m
 st.write("-American Cancer Society")
 st.image("1.jpg", caption = "Here is an example of a benign oral tumor.")
    
-st.subheader("Malignant Oral Cancer")
+st.subheader("Malignant Oral Cancer 👄")
 st.write("• Almost all of the cancers in the oral cavity and oropharynx are **squamous cell carcinomas**, also called squamous cell cancers. These cancers start in squamous cells, which are flat, thin cells that form the lining of the mouth and throat.")
 st.write("• **Verrucous carcinoma** is a rare type of squamous cell cancer that is most often found in the gums and cheeks. It's a low-grade (slow growing) cancer that hardly ever spreads to other parts of the body.") 
 st.write("• **Minor salivary gland cancers** can start in the glands in the lining of the mouth and throat. There are many types of minor salivary gland cancers, including adenoid cystic carcinoma, mucoepidermoid carcinoma, and polymorphous low-grade adenocarcinoma.")
@@ -62,13 +62,13 @@ st.write("These three may be signs of cancer, they might be a pre-cancer conditi
 st.write("-American Cancer Society")
 st.image("5.jpg", caption = "Here is an example of a malignant oral tumor.")
 
-st.header("Oral Cancer Risk Factors:")
-st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco") 
-st.write("• Heavy alcohol use") 
-st.write("• Excessive sun exposure to your lips")
-st.write("• Human Papillomavirus (HPV)") 
-st.write("• A weakened immune system")
-st.write("• A sharp/jagged tooth, which irritates the tissue")
+st.header("🩺 Oral Cancer Risk Factors:")
+st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco" 🚬) 
+st.write("• Heavy alcohol use🍷") 
+st.write("• Excessive sun exposure to your lips ☀️")
+st.write("• Human Papillomavirus (HPV)🦠") 
+st.write("• A weakened immune system🛡️")
+st.write("• A sharp/jagged tooth, which irritates the tissue🦷")
 
 st.subheader("Note: The accuracy of this AI is 97.7974, meaning it will not be accurate all of the time. Please talk to your dentist about your concerns.")
 
