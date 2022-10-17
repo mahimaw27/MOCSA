@@ -28,7 +28,7 @@ st.write("This web app was designed to detect whether an oral lesion is benign o
 #image reading
 st.image("CAC App Final Cover Photo (800x600)- resized.png")
 
-st.header("Instructions:")
+st.header("Instructions: 🦷")
 st.write("1. Read through the information about oral cancer") 
 st.write("2. Scroll down to the Image Upload section") 
 st.write("3. Click on the 'Browse files' button") 
