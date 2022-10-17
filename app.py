@@ -63,7 +63,7 @@ st.write("-American Cancer Society")
 st.image("5.jpg", caption = "Here is an example of a malignant oral tumor.")
 
 st.header("🩺 Oral Cancer Risk Factors:")
-st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco" 🚬) 
+st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco 🚬") 
 st.write("• Heavy alcohol use🍷") 
 st.write("• Excessive sun exposure to your lips ☀️")
 st.write("• Human Papillomavirus (HPV)🦠") 
