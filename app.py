@@ -62,7 +62,7 @@ st.write("These three may be signs of cancer, they might be a pre-cancer conditi
 st.write("-American Cancer Society")
 st.image("5.jpg", caption = "Here is an example of a malignant oral tumor.")
 
-st.header("🩺 Oral Cancer Risk Factors:")
+st.header("Oral Cancer Risk Factors: 🩺")
 st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco 🚬") 
 st.write("• Heavy alcohol use🍷") 
 st.write("• Excessive sun exposure to your lips ☀️")
