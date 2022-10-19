@@ -25,7 +25,7 @@ st.header("Mobile Oral Cancer Screening Application")
 st.write("This web app was designed to detect whether an oral lesion is benign or malignant from images of the mouth taken my a mobile camera.")
 
 #image reading
-st.image("CAC App Final Cover Photo (800x600)- resized.png")
+st.image("CAC_App_Final_Cover_Photo__800x600___1_-removebg-preview.png")
 
 #setting the select button for user preference
 navigation = st.selectbox("Please select the page you would like to visit!",options = ['Instructions','Information','Prediction Dashboard'], help = "Select any option to navigate to the: Instructions page, Information page, or the Prediction dashbaord.")
