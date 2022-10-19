@@ -33,7 +33,7 @@ navigation = st.selectbox("Please select the page you would like to visit!",opti
 if navigation == "Instructions":
   st.header("📖 Instructions:")
   st.write("1. Read through the facts about oral cancer by navigating to the Information page (press the drop down arrow above)")
-  st.write("     → For mobile users: click the right arrow on the top left corner of the Information page to learn more about the risk factors of oral cancer")
+  st.write("     →  For mobile users: click the right arrow on the top left corner of the Information page to learn more about the risk factors of oral cancer")
   st.write("2. Navigate to the Prediction dashboard and scroll to the Image Upload section") 
   st.write("3. Click on the 'Browse files' button") 
   st.write("4. Upload the image you took with your device")
