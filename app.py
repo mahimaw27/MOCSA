@@ -42,7 +42,7 @@ if navigation == "Instructions":
 
 
 #adjust the content as the user selected option in selectbox
-if navigation == 'About Oral Cancer:':
+if navigation == 'Information':
   st.header(navigation)
   #sidebar to show risk factors
   with st.sidebar:
@@ -97,7 +97,7 @@ if navigation == 'About Oral Cancer:':
     st.write("**- American Cancer Society**")
   
 
-if navigation == 'Picture Prediction:':
+if navigation == 'Prediction Dashboard':
   st.header(navigation)
 
   st.subheader("Note: The accuracy of this AI is 97.7974, meaning it will not be accurate all of the time. Please talk to your dentist about your concerns.")
