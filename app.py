@@ -32,7 +32,8 @@ navigation = st.selectbox("Please select the page you would like to visit!",opti
 
 if navigation == "Instructions":
   st.header("📖 Instructions:")
-  st.write("1. Read through the facts about oral cancer by navigating to the Information page (press the dropdown arrow above)")
+  st.write("1. Read through the facts about oral cancer by navigating to the Information page (press the drop down arrow above)")
+  st.write("     → For mobile users: click the right arrow on the top left corner of the Information page to learn more about the risk factors of oral cancer")
   st.write("2. Navigate to the Prediction dashboard and scroll to the Image Upload section") 
   st.write("3. Click on the 'Browse files' button") 
   st.write("4. Upload the image you took with your device")
@@ -46,7 +47,7 @@ if navigation == 'Information':
   st.header(navigation)
   #sidebar to show risk factors
   with st.sidebar:
-    st.header("Oral Cancer Risk Factors: 🩺")
+    st.header("Oral Cancer Risk Factors:")
     st.write("• Tobacco use of any kind, including cigarettes, cigars, pipes, and chewing tobacco 🚬") 
     st.write("• Heavy alcohol use 🍷") 
     st.write("• Excessive sun exposure to your lips ☀️")
@@ -59,20 +60,20 @@ if navigation == 'Information':
 
   #column1
   with col1:
-    st.subheader("Benign Oral Cancer 👅")
+    st.subheader("Benign Oral Cancer")
     st.image("1.jpg", caption = "Here is an example of a benign oral tumor.")
     Benign = st.checkbox("Click for More Info!", key = "cancer 1", value = False)
 
     
   #column2
   with col2:
-    st.subheader("Malignant Oral Cancer 👄")
+    st.subheader("Malignant Oral Cancer")
     st.image("5.jpg", caption = "Here is an example of a malignant oral tumor.")
     Malignant = st.checkbox("Click for More Info! (scroll down)", key = "cancer 2")
     
   
   if Benign:
-    st.subheader("Benign Oral Cancer 👅")
+    st.subheader("Benign Oral Cancer")
     st.write("Many types of benign tumors and tumor-like changes can start in the mouth or throat, such as these:")
     st.write("• Peripheral giant cell granuloma")
     st.write("• Fibroma") 
@@ -85,7 +86,7 @@ if navigation == 'Information':
     st.write("**- American Cancer Society**")
     
   if Malignant:
-    st.subheader("Malignant Oral Cancer 👄")
+    st.subheader("Malignant Oral Cancer")
     st.write("• Almost all of the cancers in the oral cavity and oropharynx are **squamous cell carcinomas**, also called squamous cell cancers. These cancers start in squamous cells, which are flat, thin cells that form the lining of the mouth and throat.")
     st.write("• **Verrucous carcinoma** is a rare type of squamous cell cancer that is most often found in the gums and cheeks. It's a low-grade (slow growing) cancer that hardly ever spreads to other parts of the body.") 
     st.write("• **Minor salivary gland cancers** can start in the glands in the lining of the mouth and throat. There are many types of minor salivary gland cancers, including adenoid cystic carcinoma, mucoepidermoid carcinoma, and polymorphous low-grade adenocarcinoma.")
