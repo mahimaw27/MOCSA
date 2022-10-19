@@ -42,7 +42,7 @@ if navigation == "Instructions":
 
 
 #adjust the content as the user selected option in selectbox
-if navigation == 'Information':
+if navigation == 'About Oral Cancer:':
   st.header(navigation)
   #sidebar to show risk factors
   with st.sidebar:
@@ -82,7 +82,7 @@ if navigation == 'Information':
     st.write("• Pyogenic granuloma")
     st.write("• Oral hemangioma") 
     st.write("These non-cancer tumors start from different kinds of cells and have many causes. Some of them may cause problems, but they're not likely to be life-threatening. The usual treatment for these types of tumors is surgery to remove them completely since they are unlikely to recur (come back).") 
-    st.write("-American Cancer Society")
+    st.write("**- American Cancer Society**")
     
   if Malignant:
     st.subheader("Malignant Oral Cancer 👄")
@@ -94,10 +94,10 @@ if navigation == 'Information':
     st.write("• **Erythroplakia** is a flat or slightly raised, red area that often bleeds easily if it's scraped.") 
     st.write("• **Erythroleukoplakia** is a patch with both red and white areas.")  
     st.write("These three may be signs of cancer, they might be a pre-cancer condition called dysplasia, or they could be a harmless change.")
-    st.write("-American Cancer Society")
+    st.write("**- American Cancer Society**")
   
 
-if navigation == 'Prediction Dashboard':
+if navigation == 'Picture Prediction:':
   st.header(navigation)
 
   st.subheader("Note: The accuracy of this AI is 97.7974, meaning it will not be accurate all of the time. Please talk to your dentist about your concerns.")
