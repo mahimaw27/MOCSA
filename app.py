@@ -87,6 +87,7 @@ if navigation == 'Information':
     
   if Malignant:
     st.subheader("Malignant Oral Cancer")
+    st.write("• Malignant Oral cancer is cancer that has the potential to spread and become life-threatening")
     st.write("• Almost all of the cancers in the oral cavity and oropharynx are **squamous cell carcinomas**, also called squamous cell cancers. These cancers start in squamous cells, which are flat, thin cells that form the lining of the mouth and throat.")
     st.write("• **Verrucous carcinoma** is a rare type of squamous cell cancer that is most often found in the gums and cheeks. It's a low-grade (slow growing) cancer that hardly ever spreads to other parts of the body.") 
     st.write("• **Minor salivary gland cancers** can start in the glands in the lining of the mouth and throat. There are many types of minor salivary gland cancers, including adenoid cystic carcinoma, mucoepidermoid carcinoma, and polymorphous low-grade adenocarcinoma.")
