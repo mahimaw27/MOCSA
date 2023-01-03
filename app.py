@@ -102,7 +102,7 @@ if navigation == 'Information':
 if navigation == 'Prediction Dashboard':
   st.header(navigation)
 
-  st.subheader("Note: The accuracy of this AI is 97.7974, meaning it will NOT be accurate all of the time. Please talk to your dentist about your concerns.")
+  st.subheader("Note: The accuracy of this AI is 98.237%, meaning it will NOT be accurate all of the time. Please talk to your dentist about your concerns.")
 
   st.header("Upload your Image here:")
 
